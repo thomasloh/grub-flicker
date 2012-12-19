@@ -1,0 +1,38 @@
+CACHE MANIFEST
+
+# Time: Tue Dec 18 2012 15:44:06 GMT-0800 (PST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/share/npm/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+../../styles/img/Powered_by_Punchfork.png
+components/bootstrap.css/css/bootstrap-responsive.min.css
+components/bootstrap.css/css/bootstrap.min.css
+http://fonts.googleapis.com/css?family=Raleway:500
+http://localhost:3501/components/bootstrap.css/img/glyphicons-halflings-white.png
+http://localhost:3501/components/bootstrap.css/img/glyphicons-halflings.png
+http://localhost:3501/styles/img/cream_dust.png
+http://www.bonappetit.com/images/magazine/2011/09/beakfast-lemon-ricotta-pancake-646.jpg
+http://www.google-analytics.com/ga.js
+scripts/7374835f.amd-app.js
+styles/185372ff.grub.css
+styles/8f6f52ee.index.css
+
+NETWORK:
+*

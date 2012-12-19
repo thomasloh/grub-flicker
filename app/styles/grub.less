@@ -1,0 +1,89 @@
+
+/*Custom*/
+
+body {
+  background: url('img/cream_dust.png');
+}
+
+.grub {
+
+  .shade {
+    margin-left: 4em;
+    margin-top: 3em;
+    background-color: black;
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    opacity: 0.8;
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3.5em;
+      font-weight: 500;
+      line-height: 1em;
+      color: white;
+    }
+    small {
+      margin-left: 1em;
+    }
+  }
+
+  img.grub-img {
+    width: 100%;
+    position: fixed;
+    top: 8em;
+    z-index: -1;
+    -webkit-mask-box-image: -webkit-radial-gradient(white, rgba(255,255,255,0) 99%);
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    -webkit-mask-box-image: -webkit-linear-gradient(top,transparent, transparent 5%, white 20%, white 80%, transparent 95%);
+    &.super-blur {
+      -webkit-filter: blur(20px);
+    }
+
+  }
+
+  a.ppf {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+  .source-url {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: grey;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 1em;
+    margin-right: 1em;
+  }
+
+  .mini-shade {
+    background-color: black;
+    border-radius: 10px;
+    height: 3em;
+    text-align: center;
+    width: 9%;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+    a.next {
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      font-size: 2em;
+      font-style: italic;
+      text-decoration: none;
+    }
+  }
+
+}
